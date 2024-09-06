@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../CSS/customstyle.css">
+</head>
+
+<body>
+    <!--STARTING HEADER-->
+    <header>
+        <h1>College of Information and Computing Science</h1>
+        <h3>Bachelor of Information System</h3>
+        <div class="container">
+            <a href="../index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contactUs.html">Contact Us</a> |
+            <a href="inquiry.html">Inquiry</a> |
+            <a href="profile.html">Profile</a> |
+        </div>
+    </header>
+    <!--ENDING HEADER-->
+    <!--STARTING SECTION-->
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="">Heading</a></li>
+                <li><a href="table.html">Tables</a></li>
+                <li><a href="list.html">HTML List</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="images.html">Images</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Table Format HTML</h2>
+            <p align="justify"> This is the sample Table Content</p>
+
+            <!--TABLE START-->
+            <table border="1" class="table_data">
+                <colgroup>
+                    <col style="width: 40%;">
+                    <col style="width: 30%;">
+                    <col style="width: 30%;">
+                
+                </colgroup>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Prize</th>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>Electronics</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Mobile Phone</td>
+                    <td>Electronics</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>Electronics</td>
+                    <td>$800</td>
+                </tr>
+                
+            </table>
+            <!--TABLE END-->
+
+            <!-- TABLE WITH THREAD TBODY AND TFOOT-->
+             <p>THIS IS FOR THE TABLE STRUCTURE WITH THEAD, TBODY AND TFOOT</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Baste Montenegro</td>
+                        <td>22</td>
+                        <td>BSTM 2A</td>
+                    </tr>
+                    <tr>
+                        <td>Florelyn Moreno</td>
+                        <td>20</td>
+                        <td>BSIS 3A</td>
+                    </tr>
+                    <tr>
+                        <td>Nathan Zulueta</td>
+                        <td>21</td>
+                        <td>BSIS 3A</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><small>info</small></td>
+                        <td><small>info</small></td>
+                        <td><small>info</small></td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <!-- NESTED TABLES-->
+             <h3><b>Nested Tables</b></h3>
+             <table border="1">
+                <figcaption><b>Table 1.</b> This is the smple data of a table</figcaption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Content of A Table</th>
+                    </tr>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nike shoes</td>
+                        <td>34</td>
+                        <td>$1500</td>
+                    </tr>
+                    <tr>
+                        <td>Adidas shoes</td>
+                        <td>39</td>
+                        <td>$2500</td>
+                    </tr>
+                    <tr>
+                        <td>World Balance shoes</td>
+                        <td>25</td>
+                        <td>$1300</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+             </table>
+        </article>
+    </section>
+    <!--END SECTION-->
+
+    <!--START FOOTER-->
+    <footer>
+        <h2>MarSU</h2>
+        <div class="footer_menu">
+            <a href="about.html">About</a> |
+            <a href="">Policy</a> |
+            <a href="">Terms of Use</a> |
+            <a href="">Privacy</a> |
+            <a href="">FAQ</a> |
+            <a href="contactUs.html">Contact</a> |
+        </div>
+        <div>
+            <p><b>Copyright &copy 2024.</b> MarSu Sta Cruz Campus, BSIS Student</p>
+        </div>
+    </footer>
+    <!--END FOOTER-->
+</body>
+</html>

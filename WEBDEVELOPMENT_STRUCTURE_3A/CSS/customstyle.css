@@ -1,0 +1,137 @@
+Body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header{
+    text-align: center;
+    background-color: #b71c1c;
+    color: white;
+
+}
+
+header .container a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+header .container a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+nav{
+    float: left;
+    width: 20%;
+    background-color: #eb4b48;
+    height: 700px;
+}
+
+article{
+    float: left;
+    width: 70%;
+    background-color: #f7d1e5;
+    height: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navigation_menu li{
+    list-style: none;
+    padding: 15px;
+}
+.navigation_menu li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.navigation_menu li:hover{
+   background-color: gray;
+}
+
+footer{
+    text-align: center;
+    background-color: #eb4b48;
+    padding: 30px;
+}
+
+footer h2{
+    color: white;
+    padding-top: 15px;
+
+}
+
+.footer_menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.profile-header img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: black;
+}
+
+.profile-header p{
+    margin: 5px 0;
+    color: black;
+}
+
+.contact-info {
+    background: rgb(209, 152, 204);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* THIS IS CSS IS FOR TABLE */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+th {
+    background-color: #e72a2a;
+    color: white;
+
+}
+
+.table_data{
+    background-color: rgb(219, 119, 141);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+tr:nth-child(even) {
+    background-color: #ee8181;
+}
+
+/*THIS IS THE STYLE FOR HTML LIST*/
+.firstColumn {
+    float: left;
+    width: 50%;
+}
+.secondColumn {
+    width: 50%;
+    float: right;
+}
